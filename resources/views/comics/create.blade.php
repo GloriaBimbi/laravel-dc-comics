@@ -6,7 +6,7 @@
   <section>
     <div class="container py-4">
       <h1> Add new comic </h1>
-      <form action="{{ route('comics.store') }}" method="POST">
+      <form action="{{ route('comics.store') }}" method="GET">
         @csrf
     
         <label for="title" class="form-label">Title:</label>
