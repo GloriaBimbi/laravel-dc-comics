@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Pagina iniziale')
+@section('title', 'Comics')
 
 @section('main-content')
   <section>
@@ -13,7 +13,7 @@
           <div class="card-body">
             <h5 class="card-title">{{$comic['title']}}</h5>
             <p class="card-text">{{$comic['description']}}</p>
-            <a href="#" class="btn btn-primary">Open details</a>
+            <a href="{{ route('comics.show', $comic) }}" class="btn btn-primary">Open details</a>
           </div>
         </div>
         @empty
