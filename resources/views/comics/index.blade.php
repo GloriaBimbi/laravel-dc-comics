@@ -6,6 +6,7 @@
   <section>
     <div class="container py-4">
       <h1>Laravel Comics</h1>
+      <a href="{{ route('comics.create') }}" role="button" class="btn btn-success mt-4">Add new comic</a>
       <div class="card-container d-flex justify-content-between flex-wrap gap-5 mb-5 mt-5">
         @forelse($comics as $comic)
         <div class="card" style="width: 18rem;">
