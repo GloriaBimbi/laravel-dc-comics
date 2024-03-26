@@ -7,6 +7,7 @@
     <div class="container py-4">
       <h1> {{ $comic->title }} </h1>
       <a href="{{ route('comics.index') }}" class="btn btn-primary">Go Back to Comics' List </a>
+      <a href="{{ route('comics.edit', $comic) }}" class="btn btn-success">Edit Comic</a>
       <div class="d-container d-flex justify-content-between align-items-start gap-5 mt-5">
         <img src="{{$comic->thumb}}" alt="comic thumb">
         <div class="info-container d-flex gap-1 flex-column">

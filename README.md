@@ -14,3 +14,15 @@ Iniziate a definire le prime operazioni CRUD con le relative view:
 ## Bonus:
 
 creare il seeder per la tabella comics utilizzando il file fornito.
+
+## Day 2
+
+oggi completate le operazioni CRUD:
+
+-   edit()
+-   update()
+-   destroy()
+
+## Bonus:
+
+tramite javascript (integrato in Bootstrap), quando l'utente clicca sul pulsante "delete", chiedere conferma della cancellazione, prima di eliminare l'elemento.
